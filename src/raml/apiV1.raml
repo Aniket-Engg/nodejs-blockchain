@@ -4,16 +4,6 @@ version: v1
 baseUri: /api/{version}
 mediaType: application/json
 
-/test:
-  description: This is a testing API
-  get:
-    responses:
-      200:
-        body:
-          application/json:
-            type: object
-            properties:
-                message: string
 
 /mine:
   description: This should be used to add one more block
@@ -70,35 +60,7 @@ mediaType: application/json
             properties:
                 error: string
 
-/testpost:
-  description: This is a post testing API
-  post:
-    body:
-      application/x-www-form-urlencoded:
-        properties:
-          name: 
-            description: This should be the name
-            required: true
-            type: string
-          age: 
-            description: This should be the age
-            required: true
-            type: string
-    responses:
-      200:
-        body:
-          application/json:
-            type: object
-            properties:
-                name: string
-                age: number
-      
-      404:
-        body:
-          application/json:
-            type: object
-            properties:
-                error: string
+
 
           
                 
