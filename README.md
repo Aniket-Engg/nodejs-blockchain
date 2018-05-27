@@ -33,5 +33,6 @@ This server provides below APIs :
 /addpeer: To add peer 
 /peers: To get the lost of all peers
 ```
-Note: This code is not for production-use. 
+For more insights, [this](https://medium.com/@aniketengg/blockchain-with-extra-data-using-node-js-641932ba76de) can help.
+<br/>Note: This code is not for production-use. 
 
